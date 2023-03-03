@@ -43,8 +43,8 @@
 }
  .btn:hover, .btn:focus {
      color: #fff;
-     border-color: #e8ca6f;
-     background-color: #e8ca6f;
+     border-color: #B95C50;
+     background-color: #B95C50;
 }
  .btn-white {
      font-size: 13px;
@@ -384,7 +384,7 @@
      top: 0;
 }
  header .logo img {
-     height: 19px;
+     height: 33px;
 }
  header ul.primary-nav {
      margin: 0 0 0 75px;
@@ -931,7 +931,7 @@
      left: 30px;
      transform: translateY(-50%);
 }
- .rsvp .rsvp-form .form-input-group i.fa-user, .rsvp .rsvp-form .form-input-group i.fa-users, .rsvp .rsvp-form .form-input-group i.fa-envelope, .rsvp .rsvp-form .form-input-group .fa-key {
+ .rsvp .rsvp-form .form-input-group i.fa-user, .rsvp .rsvp-form .form-input-group i.fa-users, .rsvp .rsvp-form .form-input-group i.fa-mobile, .rsvp .rsvp-form .form-input-group .fa-key {
      font-size: 14px;
      position: absolute;
      top: 50%;
@@ -2793,22 +2793,22 @@
      outline: none !important;
 }
  .btn-primary {
-     background: #113468;
+     background: #B95C50;
      color: #fff;
-     border: 2px solid #113468;
+     border: 2px solid #B95C50;
      font-family: 'Times New Roman', Times, serif;
 }
  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-     background: #153f7e !important;
-     border-color: #153f7e !important;
+     background: #B95C50 !important;
+     border-color: #B95C50 !important;
 }
  .btn-primary.btn-outline {
      background: transparent;
-     color: #113468;
-     border: 2px solid #113468;
+     color: #B95C50;
+     border: 2px solid #B95C50;
 }
  .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-     background: #113468;
+     background: #B95C50;
      color: #fff;
 }
  .btn-success {
@@ -3372,7 +3372,7 @@
 }
 .btn-sv:hover, .btn-sv:focus, .btn-sv:active {
     background: #fff !important;
-    border-color: #fff !important;
+    border-color: #FEDFE3 !important;
 }
 .btn-sv.btn-outline-sv {
     background: transparent;
@@ -3482,6 +3482,132 @@
     border-right: 1px solid black;
     /* position:absolute; */
     
+}
+
+
+
+#featured{
+	max-width: 500px;
+	max-height: 600px;
+	object-fit: cover;
+	cursor: pointer;
+	border: 2px solid #fff;
+    height: 500px;
+
+}
+
+@media screen and (max-width: 480px) {
+    #featured {
+        max-width: 300px;
+        max-height: 400px;
+        object-fit: cover;
+        cursor: pointer;
+        border: 2px solid #fff;
+    }
+}
+
+.thumbnail{
+	object-fit: cover;
+	max-width: 180px;
+	max-height: 100px;
+	cursor: pointer;
+	opacity: 0.5;
+	margin: 5px;
+	border: 2px solid #fff;
+
+}
+@media screen and (max-width: 480px) {
+    .thumbnail {
+        object-fit: cover;
+        max-width: 90px;
+        max-height: 45px;
+        cursor: pointer;
+        opacity: 0.5;
+        margin: 5px;
+        border: 2px solid #fff;
+    }
+}
+
+.thumbnail:hover{
+	opacity:1;
+}
+
+.active2{
+	opacity: 1;
+}
+
+#slide-wrapper{
+	max-width: 875px;
+	display: flex;
+	min-height: 100px;
+	align-items: center;
+    margin : 0 auto;
+
+
+}
+
+@media screen and (max-width: 480px) {
+    #slide-wrapper {
+        max-width: 400px;
+        display: flex;
+        min-height: 100px;
+        align-items: center;
+        margin : 0 auto;
+    }
+}
+
+#slider{
+	width: 700px;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: hidden;
+    margin : 0 auto;
+
+}
+@media screen and (max-width: 480px) {
+    #slider {
+        width: 400px;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: hidden;
+        margin : 0 auto;
+    }
+}
+
+.arrow51l{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: .3s;
+    margin-left: 300px;
+}
+@media screen and (max-width: 480px) {
+    .arrow51l {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        transition: .3s;
+        margin-left: 0px;
+    }
+}
+
+.arrow51l:hover{
+	opacity: .5;
+	width: 35px;
+	height: 35px;
+}
+
+.arrow51r{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.arrow51r:hover{
+	opacity: .5;
+	width: 35px;
+	height: 35px;
 }
 /*# sourceMappingURL=style.css.map */
  
